@@ -8,24 +8,21 @@
   padding: 20px;
   margin: 0 auto;
 }
-.box::before{
+.box::before, .box::after{
   content: "";
   position: absolute;
-  bottom: -40px;
-  left: 6%;
   border: solid 20px transparent;
+  left: 30px;
+}
+.box::before{
+  bottom: -38px;
   border-top: solid 20px #fad296;
   z-index: 2;
 }
 .box::after{
-  content: "";
-  position: absolute;
-  bottom: -52px;
-  left: 5%;
-  border: solid 25px transparent;
-  border-top: solid 25px #815a0a;
+  bottom: -45px;
+  border-top: solid 20px #815a0a;
   z-index: 1;
-
 }
 .box p{
   font-size: 16px;
