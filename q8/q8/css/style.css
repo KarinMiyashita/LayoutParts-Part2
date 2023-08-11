@@ -1,24 +1,21 @@
 @charset "UTF-8";
-.background1{
-  background-image: url(coffee-background.jpg);
+
+.height {
   height: 500px;
 }
-.background2{
-  background-image: url(coffee-background.jpg);
-  height: 500px;
-  background-repeat: no-repeat;
+
+.background1 {
+  background: url(coffee-background.jpg);
 }
-.background3{
-  background-image: url(coffee-background.jpg);
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+.background2 {
+  background: url(coffee-background.jpg) no-repeat;
 }
-.background4{
-  background-image: url(coffee-background.jpg);
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+
+.background3 {
+  background: url(coffee-background.jpg) no-repeat center/cover;
+}
+
+.background4 {
+  background: url(coffee-background.jpg) no-repeat center/contain;
 }
